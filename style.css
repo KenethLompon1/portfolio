@@ -78,3 +78,15 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+
+.section-transparent {
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
+.section-transparent h2 {
+    text-align: center;
+    color: #333; /* Adjust text color for better visibility */
+}
