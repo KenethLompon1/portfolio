@@ -19,25 +19,21 @@ body {
     text-decoration: underline;
 }
 
-/* Styles for the hamburger menu */
 .navbar-toggler {
-    border: 2px solid white; /* White border */
-    border-radius: 0.25rem; /* Rounded corners */
-    padding: 0.25rem; /* Adjust padding */
+    border: 2px solid white; 
+    border-radius: 0.25rem; 
+    padding: 0.25rem; 
 }
 
 .hamburger-icon span {
     display: block;
-    width: 25px; /* Width of each line */
-    height: 3px; /* Thickness of each line */
-    margin: 4px auto; /* Spacing between lines */
-    background-color: white; /* White color for lines */
-    border-radius: 2px; /* Optional: rounded edges for lines */
-    transition: all 0.3s ease-in-out; /* Smooth transitions */
+    width: 25px; 
+    height: 3px; 
+    margin: 4px auto; 
+    background-color: white; 
+    border-radius: 2px; 
+    transition: all 0.3s ease-in-out; 
 }
-
-
-
 
 .scrollspy-example {
     max-width: 800px;
@@ -82,12 +78,12 @@ hr {
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0);
     color: #fff;
-    padding: 10px;
+    padding: 1px;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    width: 50%;
 }
 
 a {
@@ -101,12 +97,13 @@ a:hover {
 
 
 .section-transparent {
-    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+    background-color: rgba(255, 255, 255, 0.7); 
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .section-transparent h2 {
     text-align: center;
-    color: #333; /* Adjust text color for better visibility */
+    color: #333; 
 }
+
