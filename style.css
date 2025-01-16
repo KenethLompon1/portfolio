@@ -12,15 +12,31 @@ body {
 }
 
 .navbar-brand, .nav-link {
-    color: #fff !important;
+    color: #ffffff !important;
 }
 
 .navbar-brand:hover, .nav-link:hover {
     text-decoration: underline;
 }
 
+.navbar-toggler {
+    border: 2px solid white; 
+    border-radius: 0.25rem; 
+    padding: 0.25rem; 
+}
+
+.hamburger-icon span {
+    display: block;
+    inline-size: 25px; 
+    block-size: 3px; 
+    margin: 4px auto; 
+    background-color: white; 
+    border-radius: 2px; 
+    transition: all 0.3s ease-in-out; 
+}
+
 .scrollspy-example {
-    max-width: 800px;
+    max-inline-size: 800px;
     margin: 20px auto;
     background: rgba(255, 255, 255, 0.1);
     padding: 20px;
@@ -30,11 +46,11 @@ body {
 }
 
 img {
-    width: 150px;
-    height: 150px;
+    inline-size: 150px;
+    block-size: 150px;
     border-radius: 50%;
     margin: 20px auto;
-    border: 5px solid #fff;
+    border: 5px solid #ffffff;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -43,8 +59,8 @@ img:hover {
 }
 
 .card {
-    margin-top: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
+    margin-block-start: 20px;
+    background-color: rgba(254, 0, 0, 0.998);
     border: none;
     border-radius: 15px;
     color: #fff;
@@ -56,18 +72,18 @@ img:hover {
 
 hr {
     border: 0;
-    height: 1px;
+    block-size: 1px;
     background: #fff;
     margin: 20px 0;
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0);
     color: #fff;
-    padding: 10px;
+    padding: 1px;
     position: fixed;
-    bottom: 0;
-    width: 100%;
+    inset-block-end: 0;
+    inline-size: 100%;
 }
 
 a {
@@ -81,12 +97,13 @@ a:hover {
 
 
 .section-transparent {
-    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+    background-color: rgba(255, 255, 255, 0.7); 
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .section-transparent h2 {
     text-align: center;
-    color: #333; /* Adjust text color for better visibility */
+    color: #333; 
 }
+
