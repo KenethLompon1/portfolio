@@ -12,12 +12,32 @@ body {
 }
 
 .navbar-brand, .nav-link {
-    color: #fff !important;
+    color: #ffffff !important;
 }
 
 .navbar-brand:hover, .nav-link:hover {
     text-decoration: underline;
 }
+
+/* Styles for the hamburger menu */
+.navbar-toggler {
+    border: 2px solid white; /* White border */
+    border-radius: 0.25rem; /* Rounded corners */
+    padding: 0.25rem; /* Adjust padding */
+}
+
+.hamburger-icon span {
+    display: block;
+    width: 25px; /* Width of each line */
+    height: 3px; /* Thickness of each line */
+    margin: 4px auto; /* Spacing between lines */
+    background-color: white; /* White color for lines */
+    border-radius: 2px; /* Optional: rounded edges for lines */
+    transition: all 0.3s ease-in-out; /* Smooth transitions */
+}
+
+
+
 
 .scrollspy-example {
     max-width: 800px;
@@ -34,7 +54,7 @@ img {
     height: 150px;
     border-radius: 50%;
     margin: 20px auto;
-    border: 5px solid #fff;
+    border: 5px solid #ffffff;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -44,7 +64,7 @@ img:hover {
 
 .card {
     margin-top: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(254, 0, 0, 0.998);
     border: none;
     border-radius: 15px;
     color: #fff;
